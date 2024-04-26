@@ -1,0 +1,50 @@
+ ###Single ordxer
+ http://localhost:4004/odata/v4/CatalogService/getLargestOrder()
+
+ ###Change the data - PATCH
+###Read the employee
+PATCH http://localhost:4004/odata/v4/CatalogService/EmployeeSet/bd82d1a0-4f59-4891-baca-af57d0d2b6f3
+Content-Type: application/json
+ 
+{
+    "salaryAmount":"10000000"
+}
+ 
+###Read custom entity for emplouyee
+ http://localhost:4004/odata/v4/MyService/ReadEmployeeSrv
+
+###Get All Employee Data--version 2 for compatibility
+http://localhost:4004/v2/odata/v4/CatalogService/EmployeeSet
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
